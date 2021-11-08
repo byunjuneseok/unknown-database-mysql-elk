@@ -1,0 +1,5 @@
+db_host='127.0.0.1'
+db_password='admin123'
+db_user='system'
+db_name='agd'
+db_port='33306'

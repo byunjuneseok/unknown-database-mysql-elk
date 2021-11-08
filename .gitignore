@@ -1,0 +1,11 @@
+/venv/
+
+.idea/
+
+/env.py
+
+__pycache__/
+
+env.pyc
+
+*.sql
