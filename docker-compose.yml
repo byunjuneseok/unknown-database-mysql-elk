@@ -23,6 +23,7 @@ services:
       - MYSQL_DATABASE=agd
       - MYSQL_USER=system
       - MYSQL_PASSWORD=admin123
+    restart: always
     networks:
       - mysql-elk
 
@@ -46,6 +47,7 @@ services:
       ES_JAVA_OPTS: "-Xmx256m -Xms256m"
       ELASTIC_PASSWORD: changeme
       discovery.type: single-node
+    restart: always
     networks:
       - mysql-elk
 
